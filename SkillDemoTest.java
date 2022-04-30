@@ -3,6 +3,6 @@ import org.junit.*;
 public class SkillDemoTest {
     @Test
     public void evenOddTest() {
-        assertEquals(false, SkillDemo.checkEvenOrOdd(4));
+        assertEquals(true, SkillDemo.checkEvenOrOdd(4));
     }
 }
